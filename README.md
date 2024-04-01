@@ -11,10 +11,10 @@ The development net is fully functional and allows for the deployment of smart c
 
 ## Using
 
-First, install Docker. Then, run:
+First, install Docker. Docker must have permision to be run as user not root. Then, run: 
 
 ```
-git clone https://github.com/crypto-ba/csc-pos-devnet && cd eth-pos-devnet
+git clone https://github.com/crypto-ba/csc-pos-devnet && cd csc-pos-devnet
 ./clean.sh
 docker compose up -d
 ```
